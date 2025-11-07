@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis MUSIENENE | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Elvis <span>MUSIENENE</span></h1>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <!-- Section d’accueil -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Salut, je suis <span>Elvis MUSIENENE</span></h2>
+            <p>Développeur Web, Mobile et Desktop | Ingénieur en Réseaux</p>
+            <button id="contactBtn">Me Contacter</button>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Passionné par la technologie et le développement logiciel, je crée des solutions innovantes pour le web, 
+            les applications mobiles et desktop. En tant qu’ingénieur en réseau, je maîtrise également les infrastructures 
+            informatiques et la connectivité.
+        </p>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="skills">
+        <h2>Compétences</h2>
+        <div class="skills-container">
+            <div class="skill">HTML / CSS / JavaScript</div>
+            <div class="skill">React / Vue / Angular</div>
+            <div class="skill">Node.js / Express</div>
+            <div class="skill">Flutter / React Native</div>
+            <div class="skill">C# / .NET / Electron</div>
+            <div class="skill">Réseaux & Sécurité</div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="projects">
+        <h2>Mes Projets</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Site Web Entreprise</h3>
+                <p>Développement complet d’un site vitrine pour une PME avec une interface moderne et responsive.</p>
+            </div>
+            <div class="project-card">
+                <h3>Application Mobile</h3>
+                <p>Application Android/iOS pour la gestion des tâches avec Flutter.</p>
+            </div>
+            <div class="project-card">
+                <h3>Logiciel Desktop</h3>
+                <p>Outil de gestion interne développé en C# / Electron pour un environnement Windows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Elvis MUSIENENE | Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
